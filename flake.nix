@@ -40,6 +40,9 @@
                   gtk2
                   gtk3
                   cudaPackages.cudatoolkit
+                  # zig Support
+                  zig
+                  zls
                 ];
               shellHook = ''
                 alias find=fd
